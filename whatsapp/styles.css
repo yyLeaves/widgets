@@ -72,7 +72,7 @@ p.info {
 }
 
 
-.bubble-triangle {
+/* .bubble-triangle {
   height: 0;
   width: 0;
   border-top: 0 solid transparent;
@@ -80,7 +80,7 @@ p.info {
   border-right: 10px solid #fff;
   position: absolute;
   left: 10px;
-}
+} */
 
 .chat-area-wrapper {
   padding: 0 4px 4px;
@@ -152,9 +152,9 @@ p.info {
   color: #fff;
 }
 
-.bubble-triangle-lx {
+/* .bubble-triangle-lx {
   border-right: 10px solid #343C53;
-}
+} */
 
 .chat-area-name-lx, .chat-timestamp-lx {
   color: #b8c4e7;
