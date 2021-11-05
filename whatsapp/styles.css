@@ -71,7 +71,6 @@ p.info {
   padding: 0 10px;
 }
 
-
 /* .bubble-triangle {
   height: 0;
   width: 0;
@@ -152,11 +151,27 @@ p.info {
   color: #fff;
 }
 
+.whatsapp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 780px) {
+  .whatsapp {
+    display: block;
+  }
+  .ws-wrapper {
+    width: 360px;
+    margin: auto;
+  }
+}
+
 /* .bubble-triangle-lx {
   border-right: 10px solid #343C53;
 } */
 
-.chat-area-name-lx, .chat-timestamp-lx {
+.chat-area-name-lx,
+.chat-timestamp-lx {
   color: #b8c4e7;
 }
 
