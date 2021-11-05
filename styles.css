@@ -1,0 +1,173 @@
+.chat-box {
+  background-color: rgb(235, 232, 222);
+  border-radius: 3px;
+  box-shadow: 2px 3px rgba(90, 89, 89, 0.301);
+  display: inline-block;
+  margin: 10px auto;
+  min-height: 250px;
+}
+
+.chat-header {
+  background-color: #095e54;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  height: 100px;
+  width: 360px;
+}
+
+.chat-header-lx {
+  background-color: #095e54b7;
+}
+
+.img-box {
+  display: inline-block;
+  left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.placeholder-round-circle {
+  background-color: #fff;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.placeholder-round-dot {
+  background-color: rgb(75, 196, 38);
+  border: 1px solid #095e54;
+  border-radius: 100%;
+  height: 9px;
+  top: 48px;
+  left: 48px;
+  position: relative;
+  width: 9px;
+}
+
+.name-intro-box {
+  left: 30px;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  top: 6px;
+}
+
+.info {
+  font-size: 15px;
+  margin: 7px;
+}
+
+p.info {
+  font-size: 13px;
+}
+
+/* Chat-bubble */
+.chat-area {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  display: inline-block;
+  margin: 20px;
+  padding: 0 10px;
+}
+
+
+.bubble-triangle {
+  height: 0;
+  width: 0;
+  border-top: 0 solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #fff;
+  position: absolute;
+  left: 10px;
+}
+
+.chat-area-wrapper {
+  padding: 0 4px 4px;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+}
+
+.chat-area-name {
+  font-size: 13px;
+  color: rgb(125, 126, 125);
+  margin-bottom: 0;
+}
+
+.chat-area-text {
+  margin-top: 5px;
+}
+
+.chat-timestamp {
+  font-size: 11px;
+  position: absolute;
+  right: 5px;
+  bottom: -10px;
+  color: rgb(125, 126, 125);
+}
+
+/* Chat Invite */
+.chat-invite {
+  height: 70px;
+  background-color: #fff;
+  padding: 10px 100px;
+}
+
+.invite-button {
+  background-color: #01e675;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  height: 19px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  margin-top: 10px;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.invite-button:active {
+  background-color: #009148;
+}
+
+/* lx */
+.bg-lx {
+  background-image: url("./lx.jpg");
+}
+
+.placeholder-round-circle-lx {
+  background-image: url("./lx-header.jpg");
+}
+
+.chat-header-lx {
+  background-color: #5f7ec0b7;
+}
+
+.chat-area-lx {
+  background-color: #343c5367;
+  color: #fff;
+}
+
+.bubble-triangle-lx {
+  border-right: 10px solid #343C53;
+}
+
+.chat-area-name-lx, .chat-timestamp-lx {
+  color: #b8c4e7;
+}
+
+.chat-invite-lx {
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+.invite-button-lx {
+  background-color: rgba(51, 61, 148, 0.884);
+}
+
+.invite-button-lx:active {
+  background-color: rgba(57, 51, 148, 0.884);
+}
